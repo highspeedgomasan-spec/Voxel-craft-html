@@ -1,6 +1,6 @@
-# Licenses and Credits
+# Licenses, Credits & Disclaimers
 
-VoxelCraft is licensed under the MIT License. It also incorporates or fetches third-party assets and fonts that are governed by their respective licenses as detailed below.
+VoxelCraft is licensed under the MIT License. It also incorporates or dynamically retrieves third-party assets and fonts governed by their respective licenses as detailed below.
 
 ---
 
@@ -30,22 +30,32 @@ SOFTWARE.
 
 ---
 
-## 2. External Textures & Assets (CC BY-SA 3.0)
+## 2. External Textures & Third-Party Assets (CC BY-SA 3.0)
 
-When external textures are enabled, the game fetches media files originally created for the **Minetest Game** project by **Luanti** (formerly Minetest):
+When external textures are enabled, the game dynamically fetches texture assets originally created for the **Minetest Game** project by **Luanti** (formerly Minetest):
 
-- **Source**: [https://github.com/luanti-org/minetest_game](https://github.com/luanti-org/minetest_game)
-- **Authors**: celeron55 (Perttu Ahola) and Minetest / Luanti contributors
+- **Repository**: [https://github.com/luanti-org/minetest_game](https://github.com/luanti-org/minetest_game)
+- **Original Authors**: celeron55 (Perttu Ahola) and Minetest / Luanti contributors
 - **License**: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 - **License Summary**: [https://creativecommons.org/licenses/by-sa/3.0/](https://creativecommons.org/licenses/by-sa/3.0/)
 
-*Note: All procedural fallback textures and original entity models (such as Bomb Golem and Swamp Zombie) are generated dynamically at runtime under the project's MIT license.*
+### 2.1 Asset Modifications Notice
+In accordance with CC BY-SA 3.0 requirements, please note that certain texture assets are dynamically scaled, resized (e.g., downscaled or nearest-neighbor normalized to 16x16 tiles), cropped, extracted (individual animation frames), or tinted at runtime by the WebGL2 rendering engine to fit the game's voxel and mesh specifications.
+
+### 2.2 Non-Affiliation / Not an Official Product
+**VoxelCraft is NOT an official Luanti or Minetest project, and is neither affiliated with, sponsored by, nor endorsed by Luanti, the Minetest Development Team, or celeron55.**  
+This game is an independent, third-party open-source voxel experiment that merely loads publicly accessible, open-licensed textures in compliance with their CC BY-SA 3.0 license.
+
+### 2.3 User Responsibility for Custom Texture URLs
+The game allows users to optionally enter an arbitrary custom URL to load third-party texture packs. **Users are solely and entirely responsible for any assets loaded via custom URLs.** You must verify and ensure that you possess the necessary rights, permissions, or compliance with applicable licenses for any third-party textures or media fetched from custom endpoints. The authors and contributors of VoxelCraft assume no liability or responsibility for unauthorized, infringing, or copyrighted content loaded through user-specified URLs.
+
+*Note: When external textures are disabled or cannot be retrieved, VoxelCraft falls back to 100% built-in procedurally generated textures and original models under the project's MIT license.*
 
 ---
 
 ## 3. Typography (SIL Open Font License 1.1)
 
-This project uses the **DotGothic16** font:
+This project includes and displays the **DotGothic16** font:
 
 - **Copyright**: Copyright 2020 The DotGothic16 Project Authors
 - **Author**: Fontworks Inc.
