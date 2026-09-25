@@ -1,9 +1,16 @@
 # VoxelCraft ⛏️
 
+[![Play Online](https://img.shields.io/badge/🎮%20Play%20Online-highspeedgomasan--spec.github.io-success?style=for-the-badge)](https://highspeedgomasan-spec.github.io/Voxel-craft-html/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![WebGL2](https://img.shields.io/badge/Graphics-WebGL2-blue.svg)](https://www.khronos.org/registry/webgl/specs/latest/2.0/)
 [![Vanilla JavaScript](https://img.shields.io/badge/Dependencies-Zero-brightgreen.svg)]()
 [![AI Powered](https://img.shields.io/badge/Code-Claude%20Sonnet%205-purple.svg)]()
+
+> 🎮 **今すぐブラウザで遊ぶ / Play Online Now:**  
+> **👉 [https://highspeedgomasan-spec.github.io/Voxel-craft-html/](https://highspeedgomasan-spec.github.io/Voxel-craft-html/)**
+
+---
 
 **VoxelCraft** is a lightweight, zero-dependency, single-file 3D voxel sandbox game built entirely with modern **WebGL2** and vanilla JavaScript. Run it directly in any modern desktop or mobile web browser with zero installation or build steps.
 
