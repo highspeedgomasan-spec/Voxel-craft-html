@@ -3,11 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![WebGL2](https://img.shields.io/badge/Graphics-WebGL2-blue.svg)](https://www.khronos.org/registry/webgl/specs/latest/2.0/)
 [![Vanilla JavaScript](https://img.shields.io/badge/Dependencies-Zero-brightgreen.svg)]()
-[![AI Powered](https://img.shields.io/badge/Code-Claude%203.5%20Sonnet-purple.svg)]()
+[![AI Powered](https://img.shields.io/badge/Code-Claude%20Sonnet%205-purple.svg)]()
 
 **VoxelCraft** is a lightweight, zero-dependency, single-file 3D voxel sandbox game built entirely with modern **WebGL2** and vanilla JavaScript. Run it directly in any modern desktop or mobile web browser with zero installation or build steps.
-
-👉 **[Play VoxelCraft Now](https://highspeedgomasan-spec.github.io/Voxel-craft-html/)**
 
 Featuring infinite procedural terrain generation, smooth lighting with ambient occlusion, realistic fluid propagation, mob AI, crafting, smelting, storage, synthesized Web Audio sound effects, mobile touch joystick support, and an extensible modding engine (**VCMF v2.0**).
 
@@ -94,6 +92,6 @@ Mods can be loaded via the in-game MOD Manager with support for:
 
 ## 📜 Credits & Licensing
 1. **Codebase License**: MIT License (c) 2024-2026 VoxelCraft Contributors.
-2. **AI Authoring Disclosure**: Coded with AI assistance by Anthropic Claude 3.5 Sonnet / Claude Sonnet 5.
+2. **AI Authoring Disclosure**: Coded with AI assistance by Anthropic Claude Sonnet 5.
 3. **External Textures**: Luanti (formerly Minetest) "Minetest Game" by celeron55 and contributors, licensed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0). Built-in procedural textures are used when offline.
 4. **Typography**: DotGothic16 by Fontworks Inc., SIL Open Font License 1.1.
